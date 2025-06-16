@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>No</label>
+    <input type="number" name="" id="txtno">
+    <br>
+    <h1 id="result">Result</h1>
+    <button onclick="show()">Show No</button>
+    <h1 onclick="viewweb()">CSC Website</h1>
+
+    <script>
+        let count=1;
+        function viewweb()
+        {
+            
+            console.log(count);
+            
+            count++;
+            
+        }
+        function show()
+        {
+          window.open("file:///D:/test%20html/table1.html","Example window","width=800,height=400");
+            
+        }
+
+        
+        // function show()
+        // {
+        //     let s1=document.getElementById("txtno");
+        //     let result=document.getElementById("result");
+            
+        //     if(s1.value=="")
+        //     {
+        //          result.innerText="Invalid no"
+        //          return;
+        //     }
+
+
+        //     if(s1.value>=0)
+        //         result.innerText='Positive No';
+        //     else 
+        //         result.innerText='Negative No';
+        // }
+
+        // window.addEventListener("load", function() {
+        //     alert('Page loaded successfully.....');
+            
+        // });
+
+    </script>
+</body>
+</html>
